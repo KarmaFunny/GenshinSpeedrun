@@ -1,0 +1,2 @@
+# GenshinSpeedrun
+Genshin Speedrun Webapp
