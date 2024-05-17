@@ -1,36 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rules Page</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <nav>
         <ul>
+            <li class="title"><a href="index.html">Website Title</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="rules.html">Rules</a></li>
-            <li><a href="submission.html">Submission</a></li>
             <li><a href="leaderboard.html">Leaderboard</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="submission.html">Submission</a></li>
+            <li><a href="contact.html">Info</a></li>
+            <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
+
     <div class="container">
         <h1>Rules Page</h1>
-        <section>
-            <h2>How to Submit</h2>
-            <!-- Instructions for submission -->
-        </section>
-        <section>
-            <h2>Categories</h2>
-            <!-- List of categories -->
-        </section>
-        <section>
-            <h2>Types</h2>
-            <!-- List of types -->
-        </section>
+        <div class="grid-container">
+            <section class="grid-item">
+                <h2>How to Submit/Contact</h2>
+                <p>Contact @bingbongkarma on Discord.</p>
+                <p>Any and all suggestions or ideas are welcome!</p>
+                <p>Include the following details in your submission:</p>
+                <ul>
+                    <li>Display Name</li>
+                    <li>Type and Category</li>
+                    <li>Time</li>
+                    <li>Proof (Link to video)</li>
+                </ul>
+            </section>
+
+            <section class="grid-item">
+                <h2>Categories</h2>
+                <ul>
+                    <li>
+                        <strong>Domains</strong><br>
+                        Start - Pressing start on the key<br>
+                        Finish - Challenge completed (white star/flash appears)<br>
+                        Consumables - You may not use any
+                    </li>
+                    <li>
+                        <strong>World Bosses</strong><br>
+                        Start - Boss HP bar shows<br>
+                        Finish - Boss HP bar disappears<br>
+                        Consumables - You may not use any<br>
+                        You may not use any skills or bursts before entering combat<br>
+                        You may engage combat with a skill or burst
+                    </li>
+                    <li>
+                        <strong>Spiral Abyss</strong><br>
+                        Time - Final displayed time taken away from 10mins<br>
+                        Hall of Fame will be added for each patch's top run
+                    </li>
+                    <li>
+                        <strong>Commissions</strong><br>
+                        Start - When you start the first commission<br>
+                        Finish - When you receive rewards from Kathryn<br>
+                        Consumables - You may not use any<br>
+                        Overall - Time does not include loading time during teleportation<br>
+                        Region - Can be any<br>
+                        Portable Waypoints - Are allowed
+                    </li>
+                </ul>
+            </section>
+
+            <section class="grid-item">
+                <h2>Types</h2>
+                <ul>
+                    <li>
+                        <strong>Info</strong><br>
+                        Each category will have all types available except commissions<br>
+                        More types / challenges will be added in future
+                    </li>
+                    <li>
+                        <strong>4* Only</strong><br>
+                        You may only use 4* characters<br>
+                        You may use 5* weapons
+                    </li>
+                    <li>
+                        <strong>Unrestricted</strong><br>
+                        You may use any characters<br>
+                        You may use any weapons
+                    </li>
+                </ul>
+            </section>
+        </div>
     </div>
+    
     <script src="js/scripts.js"></script>
 </body>
 </html>

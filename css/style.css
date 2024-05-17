@@ -26,6 +26,44 @@ body {
     margin-top: 20px;
 }
 
+.announcement {
+    margin-top: 20px;
+}
+
+.announcement-box {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-box h2 {
+    margin-bottom: 10px;
+    color: #DC143C;
+}
+.announcement-box p {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
 /* Styling the navigation bar */
 nav {
     background-color: #333;
@@ -36,7 +74,8 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 nav ul li {
@@ -47,7 +86,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
-    border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
@@ -56,7 +94,13 @@ nav ul li a:hover {
 }
 
 /* Styling headers */
-h1, h2, h3 {
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+h2, h3 {
     margin-bottom: 20px;
     color: #333;
 }
@@ -135,5 +179,18 @@ tr:nth-child(even) {
     nav ul li {
         margin: 5px 0;
     }
+}
+
+section ul {
+    padding-left: 25px; /* Adjust the padding as needed */
+}
+
+section h2 {
+    margin-bottom: 10px; /* Adjust the margin bottom as needed */
+}
+
+section p {
+    margin-top: 0; /* Remove the default top margin */
+    margin-bottom: 0px; /* Adjust the margin bottom as needed */
 }
 
