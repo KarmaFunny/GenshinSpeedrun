@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="submission.html">Submission</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Leaderboard Page</h1>
+        <select id="leaderboard-selector" onchange="showLeaderboard(this.value)">
+            <option value="commissions">Commissions</option>
+            <option value="spiral-abyss-12-1">Spiral Abyss 12-1</option>
+            <option value="spiral-abyss-12-2">Spiral Abyss 12-2</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <div id="leaderboard-content">
+            <!-- Dynamic leaderboard content will be loaded here -->
+        </div>
+    </div>
+    <script>
+        function showLeaderboard(leaderboard) {
+            // JavaScript to dynamically load leaderboard content
+            // This can be done via AJAX or simply showing/hiding sections
+        }
+    </script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
